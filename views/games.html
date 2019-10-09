@@ -66,10 +66,10 @@
                 {{players[game.red_d]}}
             </td>
             <td class="col-xs-1" data-game-length="{{game.length}}">
-                {{game.blue_shots | length}}
+                {{game.blue_score}}
             </td>
             <td class="col-xs-1" data-game-length="{{game.length}}">
-                {{game.red_shots | length}}
+                {{game.red_score}}
             </td>
             <td class="col-xs-1">
                 <a href="/games/play?key={{game.key.urlsafe()}}">Resume</a>
