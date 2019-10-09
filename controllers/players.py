@@ -96,6 +96,10 @@ class NewPlayer(webapp2.RequestHandler):
 
         self.redirect('/players/unranked')
 
+class EditPlayer(webapp2.RequestHandler):
+    def post(self):
+        
+
 class RemovePlayer(webapp2.RequestHandler):
     def post(self):
         url_key = self.request.get('key')
